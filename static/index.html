@@ -10,6 +10,20 @@
     <link rel="stylesheet" href="toast.css">
 </head>
 <body>
+    <body>
+    <!-- 网站标题栏 -->
+    <header class="site-header">
+        <div class="site-title">
+            <div class="logo">
+                <i class="fas fa-compass"></i>
+            </div>
+            <h1>星航导航</h1>
+        </div>
+        <div class="site-tagline">
+            高效、简洁、个性化的导航门户 - 快速访问您最常用的网站和工具
+        </div>
+    </header>
+        
     <!-- Toast 容器 -->
     <div id="toastContainer" class="toast-container"></div>
 
@@ -46,12 +60,12 @@
                             <select id="searchEngine">
                                 <option value="baidu"><i class="fab fa-baidu"></i> 百度</option>
                                 <option value="google"><i class="fab fa-google"></i> Google</option>
-                                <option value="bing"><i class="fab fa-microsoft"></i> Bing</option>
+                                <option value="bing"><i class="fab fa-microsoft"></i> Bing必应</option>
                             </select>
                         </div>
                     </form>
                     <div class="header-actions">
-                        <a href="https://github.com/yvyan/MyPage" 
+                        <a href="https://github.com/mkboy95/MyPage" 
                            target="_blank" 
                            class="github-link" 
                            title="查看源码">
@@ -125,7 +139,11 @@
             </form>
         </div>
     </div>
-
+<!-- 网站备案信息 -->
+    <footer class="site-footer">
+        <p>© 2023 星航导航 | 京ICP备12345678号-1 | 本网站仅用于学习交流</p>
+        <p>联系我们：contact@xinghang.com | 客服热线：400-123-4567</p>
+    </footer>
     <script src="api.js"></script>
     <script src="app.js"></script>
 </body>
